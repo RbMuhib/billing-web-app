@@ -1,29 +1,44 @@
-# POS
-  Point of Sale Web Application developer on CodeIgniter.
-  Successfully Deployed Application in Bakery Stores. Working Successfully Offline
+# GST Billing App
 
 
-#Software Requirements :
-   Any Apache Server Like XAMPP, WAMP
 
-#Features:
-   COD, Check Cash and Advance Payment Amount Options
-   Log in with Email/Password and Login with PIN
-   Multi-user Login with Administrator, Manager, Sales Person User Roles.
-   Generate Database Backup Option
+> *GST Billing App is a simple Client-Server Billing Application with products database which calculates the total amount of the products added to the Billing List with GST price*.
 
-#Installation Steps:
-   Download XAMPP, WAMPP, USB server and any web server [Local]
-   Cpanel, Perl, PHPMyAdmin [Web]
-   Copy the Files in HTDOCS [local], WWW/public_html/root (Web)
-   Export the Database to DB Server
-   Change the URL & Site Details details in config.php
-   Change the database details in database.php
-    
-    
-#Developer Instruction :
-  Clone the repository using Sourcetree to you htdocs folder
-  Change your database details in application/config/database.php
-  Create a Database and upload the Database file located in database folder
-  
-# billing-web-app
+
+"This is fully fledged fullstack application built with CRUD operations in SQL database, Hapi.js Server and Angular 5 with primeng front end."
+
+
+## Working of Applications:
+
+Stack used here is as follows
+
+1) Environment and all the dependencies for Backend is an RESTful web service using Hapi js Framework.
+2) Database used here is MySQL.
+3) Angular4 PRIMENG framework used as a web interface(Frontend).
+
+
+## Getting started
+
+Clone this repository in your local machine.
+
+### Database
+
+Create the MYSQL database in your local machine and run the Database server.
+(The query to create the table in SQL is in the file mysql.txt)
+
+### Backend
+
+To the run the backend server locally:
+
+- Navigate to the Backend directory in terminal.
+- `npm install` to install all required dependencies
+- run `node app` to start your server, .
+
+### Frontend
+
+To get the frontend running locally:
+
+- Navigate to the Client/ directory in terminal.
+- `npm install` to install all required dependencies.
+- `ng serve` to start the (http://localhost:4200) with watch and hot reload 
+The local web server uses port 4200.
